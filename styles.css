@@ -7,7 +7,7 @@ body {
   background-position: top;
   background-color: #fffeed;
   font-family: Montserrat, sans-serif;
-  color: #572508;
+  color: #1a5589;
 }
 
 .Logo {
@@ -52,8 +52,13 @@ iframe {
   height: 400px;
 }
 
+.form-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+}
+
 form {
-  background-color: #f5f5f5;
   padding: 10px;
   text-align: center;
   max-width: 400px;
@@ -63,15 +68,14 @@ input {
   margin: 5px;
   border-color: #215f8f;
   border-radius: 3px;
-  padding: 3px;
-  width: 90%;
+  padding: 5px;
 }
 
 input[type=submit] {
+  display: inline;
   border: none;
   background-color: #215f8f;
   color: white;
-  width: 90%;
 }
 
 
